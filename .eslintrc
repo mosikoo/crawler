@@ -2,13 +2,11 @@
   "extends": "airbnb",
   "env": {
     "node": true,
-    "browser": true,
-    "macha": true,
   },
   "globals": {
     "Babel": true,
   },
-  "rules": {
-
-  }
+  rules: {
+    "no-console": "off",
+  },
 }
